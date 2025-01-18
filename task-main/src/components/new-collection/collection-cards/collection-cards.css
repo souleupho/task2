@@ -1,0 +1,24 @@
+.card {
+  cursor: pointer;
+}
+.card-image {
+  height: 450px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.card-price {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.card-sub {
+  opacity: 0.6;
+}
+.card-title {
+  font-weight: 700;
+  
+  font-size: 20px;
+  margin-top: 20px;
+} 
+

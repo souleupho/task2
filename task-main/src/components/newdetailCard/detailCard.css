@@ -1,0 +1,115 @@
+/* detailCard.css */
+
+.card-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-detail:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #eaeaea;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-image:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.detail h1:hover {
+  color: #007bff;
+}
+
+.detail p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.detail p:hover {
+  color: #333;
+}
+
+.detail p span {
+  font-weight: bold;
+  color: #000;
+}
+
+.detail p span:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Button Styling */
+.detail button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.detail button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.detail button:active {
+  transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .card-detail {
+    padding: 15px;
+  }
+
+  .product-image {
+    height: 200px;
+  }
+
+  .detail h1 {
+    font-size: 20px;
+  }
+
+  .detail p {
+    font-size: 14px;
+  }
+
+  .detail button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

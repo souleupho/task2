@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.hero-section {
+  background-image: url("https://images.unsplash.com/photo-1695825495394-e3af4e73267f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - (71.44px + 40px));
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 25px;
+  position: relative;
+  font-family: "Poppins", serif;
+}
+
+.hero-title {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  font-size: 100px;
+}
+
+.hero-sub {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: -30px;
+}

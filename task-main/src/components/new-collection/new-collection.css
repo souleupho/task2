@@ -1,0 +1,13 @@
+.new-collection {
+  margin-top: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.list-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-around;
+  margin-top: 20px;
+}

@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.navbar-links a {
+  all: unset;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-logo {
+  font-size: 20px;
+  margin-left: -161px;
+}

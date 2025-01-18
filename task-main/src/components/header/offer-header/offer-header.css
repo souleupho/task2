@@ -1,0 +1,15 @@
+.offer-header {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  flex-direction: row;
+  color: white;
+  background: black;
+  justify-content: center;
+}
+
+.ant-statistic-content-value {
+  color: white;
+}
